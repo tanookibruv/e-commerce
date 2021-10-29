@@ -16,7 +16,7 @@ Product.init(
       autoIncrement: true,
     },
     stock: {
-      type: DataTypes.INTERGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 10,
       validate: {
